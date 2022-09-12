@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+}
+@media screen {
+    
+
+    body{
+        margin: 0px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    header h1{
+        text-align: center;
+        font-size: 40px;
+        color: white;
+    }
+    header{
+        padding: 40px;
+        background-color: rgba(95, 201, 219, 0.795)
+        
+    }
+    nav{
+        background-color: rgb(224, 117, 117);
+        overflow: hidden;
+      
+    }
+    nav a{
+        text-decoration: none;
+        padding: 20px;
+        text-align: center;
+        float: left;
+        color: white;
+        
+    }
+    nav a:hover{
+        color: blueviolet;
+    }
+    .selectter,option,select{
+        background-color:rgb(224, 117, 117);
+        border: none;
+        color: rgb(235, 227, 227);
+        cursor: pointer;
+       
+        
+    }
+    .selectter{
+        text-align: end;
+        margin-left: 900px;
+    }
+    .selectter :hover{
+        color: chartreuse;
+        background-color: antiquewhite;
+    }
+    
+    .other{
+        text-align: center;
+        padding: 20px;
+        cursor: pointer;
+        overflow: hidden;
+        text-decoration: none;
+      
+    }
+
+    .butone{
+        padding: 10px;
+        margin: 10px 700px 10px 700px;
+        font-style: normal;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(155, 17, 235);
+        background-color: rgba(197, 168, 159, 0.61);
+        cursor: pointer;
+        border: 10px;
+        border-radius: 5px;
+      
+    }
+    .butone:hover{
+        color: brown;
+        background-color: cornflowerblue;
+    }
+    form{
+        text-align: center;
+        padding: 5px;
+        margin: 3px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: bold;
+        border: 20px;
+        border-radius: 5px;
+        border-color: rgb(117, 56, 41);
+      
+    }
+    .submit{
+        border: 10px;
+        border-radius: 3px;
+        text-align: center;
+        font-weight: bold;
+        color: brown;
+        background-color: aquamarine;
+        cursor: pointer;
+        font-size: 20px;
+      
+    }
+    .submit:hover{
+        color: chartreuse;
+        background-color: antiquewhite;
+    
+    }
+    .reset{
+        border: 7px;
+        border-radius: 3px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        color: blueviolet;
+        background-color: darkkhaki;
+        
+    
+    }
+    .reset:hover{
+        color: rgb(214, 136, 33);
+        background-color: aliceblue;
+        cursor: pointer;
+    }
+    .name{
+        margin: 10px;
+    }
+    .detail123{
+    
+        border: 10px rgb(200, 212, 121);
+        border-radius: 5px;
+        text-align: center;
+        font-style: italic;
+       
+        
+    }
+    .dontclick{
+        padding: 20px;
+        margin: 10px 600px 10px 600px;
+        text-align: center;
+        font-size: 30px;
+        border: 20px rgb(30, 255, 0);
+        color: rgb(8, 10, 4);
+        background-color: rgb(30, 255, 0);
+        border-radius: 5px;
+        width: 200px;
+        height: 100px;
+        transition: width 2s,hight 3s, border-radius 4s , background 4s,overflow 4s, margin 4s;
+        
+    }
+    .dontclick:hover{
+        box-shadow: 0 0 0 1em red,
+        0 1em 0 1em red,
+        -2.5em 1.5em 0 .5em red,
+        2.5em 1.5em 0 .5em red,
+        -3em -3em 0 0 red,
+        3em -3em 0 0 red,
+        -2em -2em 0 0 red,
+        2em -2em 0 0 red,
+        -3em -1em 0 0 red,
+        -2em -1em 0 0 red,
+        2em -1em 0 0 red,
+        3em -1em 0 0 red,
+        -4em 0 0 0 red,
+        -3em 0 0 0 red,
+        3em 0 0 0 red,
+        4em 0 0 0 red,
+        -5em 1em 0 0 red,
+        -4em 1em 0 0 red,
+        4em 1em 0 0 red,
+        5em 1em 0 0 red,
+        -5em 2em 0 0 red,
+        5em 2em 0 0 red,
+        -5em 3em 0 0 red,
+        -3em 3em 0 0 red,
+        3em 3em 0 0 red,
+        5em 3em 0 0 red,
+        -2em 4em 0 0 red,
+        -1em 4em 0 0 red,
+        1em 4em 0 0 red,
+        2em 4em 0 0 red;
+        background: red;
+        width: 1em;
+        height: 1em;
+        overflow: hidden;
+        margin: 50px 0 70px 65px;
+        
+    } 
+    .path1{
+        text-align: center;
+        font-style: italic;
+        text-decoration: none;
+        font-stretch: expanded;
+          
+    }
+    .img1{
+        padding: 10px;
+        margin: 10px 300px 10px 300px;
+        
+    }
+    .but2{
+        background-color: chartreuse;
+        padding: 10px;
+        margin: 10px 600px 10px 600px;
+        border: 40px red;
+        border-radius: 50%;
+        width: 250px;
+        height: 200px;
+        transition: width 4s, hight 5s, background 5s, border-radius 5s;
+      
+    }
+    .but2:hover{
+        background: blueviolet;
+        width: 700px;
+        height: 600px;
+        border-radius: 50%;
+        cursor: wait;
+        
+    }
+    audio,.song{
+        padding: 10px;
+        margin: 10px 500px 10px 500px;
+        background-color: rgb(228, 187, 174);
+        border: 10px solid rgb(142, 150, 128);
+        border-radius: 5px;
+    }
+    audio:hover{
+        color: aqua;
+        background-color: rgb(170, 20, 113);
+        cursor: pointer;
+    }
+    
+}
+
+
